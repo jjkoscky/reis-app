@@ -5,25 +5,32 @@ import { AiFillFacebook, AiOutlineMail } from 'react-icons/ai'
 export default function Home() {
   return (
     <main className="">
-      <div className=' bg-black '>
-      <div className='text-center'>
-        <h1 className='text-3xl mt-7 font-medium'>Lucas Reis fotografias</h1>
-      </div>
-        <div className='md:flex justify-center pt-7'> 
-          <Image src={'/perfil2.jpg'} alt='Lucas Reis' width={400} height={400} className='rounded-full border-2 border-gray-800 ml-5 md:ml-0 w-[350px] h-[350px] md:w-[400px] md:h-[400px]'/>
-          <p className='w-[300px] md:w-[500px] mt-6 ml-10 md:mt-36 font-medium text-lg md:ml-7 text-justify'>Hey! Meu nome é Lucas Reis! 
-          Sou fotógrafo desde 2017. Cobrindo eventos, casamentos, festas e ensaios em geral. 
-          Sempre com um olhar artístico, utilizando a criatividade como a melhor ferramenta para pintar a realidade que não enxergamos.</p>
+      <div className=' bg-black mt-10 md:mt-[7.75rem]'>
+      
+        <div className='md:flex justify-center md:pt-7'> 
+          <div>
+            <Image src={'/perfil2.jpg'} alt='Lucas Reis' width={400} height={400} className='rounded-full border-2 border-gray-800 ml-5 md:ml-0 w-[350px] h-[350px] md:w-[400px] md:h-[400px] md:mt-[3.25rem]'/>
+          </div>
+          <div className='mt-7 md:mt-10 ml-10'>
+            <p className='text-4xl md:leading-[80px] md:w-[600px] md:text-7xl font-medium bg-gradient-to-r from-fuchsia-500 to-rose-500 text-transparent bg-clip-text'>
+            Hey! Meu nome é <br /> Lucas Reis! <br />          
+            </p>
+            <p className='w-[300px] md:w-[500px] font-medium text-lg text-justify mt-5'>
+            Sou fotógrafo desde 2017. Cobrindo eventos, casamentos, festas e ensaios em geral. 
+            Sempre com um olhar artístico, utilizando a criatividade como a melhor ferramenta para pintar a realidade que não enxergamos.
+            </p>
+          </div>
         </div>
-        <div className='mt-6 md:w-[940px] m-auto text-start '>
-          <div className='ml-[40px] flex md:mt-[-100px] md:ml-[433px]'>
-            <button className='text-xl pr-3 pl-3 py-2 bg-[#d1d5db] text-black rounded-xl flex hover:bg-white'>Contato
+        <div className='mt-5 md:mt-14 md:w-[940px] m-auto text-start '>
+          <div className='ml-[40px] flex md:mt-[-147px] md:ml-[391px]'>
+            <a href='mailto:lucasreis.097s@gmail.com' className='text-xl pr-3 pl-3 py-2 bg-[#d1d5db] text-black rounded-xl flex hover:bg-white'>Contato
               <AiOutlineMail size={30} className="text-black flex ml-3"/>
-            </button>
-            <a href="" className='ml-7 mt-1'>
+            </a>
+            <a href="https://www.instagram.com/Ostara.fotos" target='_blank' className='ml-7 mt-1'>
               <FaInstagram size={35} className="text-[#d1d5db] hover:text-white" />
             </a>
-            <a href="" className='ml-7 mt-1'>
+            
+            <a href="" className='ml-7 mt-1 hidden'>
               <AiFillFacebook size={35} className="text-[#d1d5db] hover:text-white"/>
             </a>
           </div>
