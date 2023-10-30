@@ -55,7 +55,7 @@ export default function Home() {
           </div>
         </div>
       </div>
-     <div className='p-2 md:p-0 m-auto pt-[300px]  w-fit h-screen'>
+     <div className='p-2 md:p-0 m-auto pt-[300px]  w-fit h-screen bg-black'>
       <SlideshowLightbox className='container grid grid-cols-3 gap-2 mx-auto ' showThumbnails={true}>
         <img className='w-full rounded' src='/Fotos/001.jpeg' />
         <img className='w-full rounded' src='/Fotos/002.jpeg' />
