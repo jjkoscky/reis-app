@@ -1,11 +1,22 @@
+'use client'
+
 import Image from 'next/image'
 import { FaInstagram } from 'react-icons/fa'
 import { AiFillFacebook, AiOutlineMail } from 'react-icons/ai'
 
+import 'lightbox.js-react/dist/index.css'
+import {SlideshowLightbox, initLightboxJS} from 'lightbox.js-react'
+import ArrowDwon from './Components/ArrowDown'
+import ArrowDown from './Components/ArrowDown'
+
 export default function Home() {
+
+
+
   return (
     <main className="">
-      <div className=' bg-black mt-10 md:mt-[7.75rem]'>
+      
+      <div className=' bg-black mt-10 md:mt-[7.75rem] h-screen'>
       
         <div className='md:flex justify-center md:pt-7'> 
           <div>
@@ -34,8 +45,23 @@ export default function Home() {
               <AiFillFacebook size={35} className="text-[#d1d5db] hover:text-white"/>
             </a>
           </div>
+          
+        </div>
+        <div className='flex mt-[-8px] md:block m-auto w-fit md:mt-[120px]'>
+          <span className='mt-5 text-lg md:text-2xl font-medium m-auto'>Conheça Meu Trabalho</span>
+          <div className='ml-4 md:ml-[100px]'>
+            <ArrowDown />
+          </div>
         </div>
       </div>
+     <div className='p-2 md:p-0 m-auto pt-[300px]  w-fit h-screen'>
+      <SlideshowLightbox className='container grid grid-cols-3 gap-2 mx-auto ' showThumbnails={true}>
+        <img className='w-full rounded' src='/Fotos/001.jpeg' />
+        <img className='w-full rounded' src='/Fotos/002.jpeg' />
+        <img className='w-full rounded' src='/Fotos/003.jpeg' />  
+        <img className='w-full rounded' src='/Fotos/004.jpeg' />
+      </SlideshowLightbox> 
+     </div>
     </main>
   )
 }
