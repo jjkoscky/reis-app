@@ -10,12 +10,13 @@ import ArrowDwon from './Components/ArrowDown'
 import ArrowDown from './Components/ArrowDown'
 
 export default function Home() {
+  
 
 
 
   return (
     <main className="">
-      
+  
       <div className=' bg-black mt-10 md:mt-[7.75rem] h-screen'>
       
         <div className='md:flex justify-center md:pt-7'> 
