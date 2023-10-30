@@ -27,7 +27,7 @@ export default function Home() {
             <p className='text-4xl md:leading-[80px] md:w-[600px] md:text-7xl font-medium bg-gradient-to-r from-fuchsia-500 to-rose-500 text-transparent bg-clip-text'>
             Hey! Meu nome é <br /> Lucas Reis! <br />          
             </p>
-            <p className='w-[300px] md:w-[500px] font-medium text-lg text-justify mt-5'>
+            <p className='w-[300px] md:w-[500px] font-medium text-lg text-justify mt-5 text-slate-200'>
             Sou fotógrafo desde 2017. Cobrindo eventos, casamentos, festas e ensaios em geral. 
             Sempre com um olhar artístico, utilizando a criatividade como a melhor ferramenta para pintar a realidade que não enxergamos.
             </p>
@@ -49,7 +49,7 @@ export default function Home() {
           
         </div>
         <div className='flex mt-[-8px] md:block m-auto w-fit md:mt-[120px]'>
-          <span className='mt-5 text-lg md:text-2xl font-medium m-auto'>Conheça Meu Trabalho</span>
+          <span className='mt-5 text-lg md:text-2xl font-medium m-auto text-slate-200'>Conheça Meu Trabalho</span>
           <div className='ml-4 md:ml-[100px]'>
             <ArrowDown />
           </div>
