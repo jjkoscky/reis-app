@@ -28,13 +28,13 @@ export default function Home() {
             Hey! Meu nome é <br /> Lucas Reis! <br />          
             </p>
             <p className='w-[300px] md:w-[500px] font-medium text-lg text-justify mt-2 text-slate-200'>
-            Sou fotógrafo desde 2017. Cobrindo eventos, casamentos, festas e ensaios em geral. 
+            Sou fotógrafo desde 2017.  
             Sempre com um olhar artístico, utilizando a criatividade como a melhor ferramenta para pintar a realidade que não enxergamos.
             </p>
           </div>
         </div>
-        <div className='mt-5 md:mt-14 md:w-[940px] m-auto text-start '>
-          <div className='ml-[40px] flex md:mt-[-147px] md:ml-[391px]'>
+        <div className='mt-2 md:mt-14 md:w-[940px] m-auto text-start '>
+          <div className='ml-[30px] flex md:mt-[-147px] md:ml-[391px]'>
             <a href='mailto:lucasreis.097s@gmail.com' className='text-xl pr-3 pl-3 py-2 bg-[#d1d5db] text-black rounded-xl flex hover:bg-white'>Contato
               <AiOutlineMail size={30} className="text-black flex ml-3"/>
             </a>
