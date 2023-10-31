@@ -17,17 +17,17 @@ export default function Home() {
   return (
     <main className="">
   
-      <div className=' bg-black mt-5 md:mt-[7.75rem] h-screen w-fit m-auto'>
+      <div className=' bg-black mt-2 md:mt-[7.75rem] h-screen w-fit m-auto'>
       
         <div className='md:flex justify-center md:pt-7'> 
           <div>
-            <Image src={'/perfil2.jpg'} alt='Lucas Reis' width={400} height={400} className='rounded-full border-2 border-gray-800  md:ml-0 w-[350px] h-[350px] md:w-[400px] md:h-[400px] md:mt-[3.25rem]'/>
+            <Image src={'/perfil2.jpg'} alt='Lucas Reis' width={400} height={400} className='rounded-full border-2 border-gray-800  md:mr-10  w-[350px] h-[350px] md:w-[400px] md:h-[400px] md:mt-[3.25rem]'/>
           </div>
-          <div className='mt-7 md:mt-10 ml-10'>
+          <div className='mt-3 md:mt-10 w-fit m-auto'>
             <p className='text-4xl md:leading-[80px] md:w-[600px] md:text-7xl font-medium bg-gradient-to-r from-blue-400 to-violet-500 text-transparent bg-clip-text'>
             Hey! Meu nome é <br /> Lucas Reis! <br />          
             </p>
-            <p className='w-[300px] md:w-[500px] font-medium text-lg text-justify mt-5 text-slate-200'>
+            <p className='w-[300px] md:w-[500px] font-medium text-lg text-justify mt-2 text-slate-200'>
             Sou fotógrafo desde 2017. Cobrindo eventos, casamentos, festas e ensaios em geral. 
             Sempre com um olhar artístico, utilizando a criatividade como a melhor ferramenta para pintar a realidade que não enxergamos.
             </p>
@@ -59,11 +59,9 @@ export default function Home() {
       <SlideshowLightbox className='container grid grid-cols-1 md:grid-cols-2 gap-2 mx-auto' showThumbnails={true}>
         <img className='w-full rounded' src='/Fotos/001.jpeg' />
         <img className='w-full rounded' src='/Fotos/002.jpeg' />
-        <img className='w-full rounded ' src='/Fotos/004.jpeg' />
-        <img className='w-full rounded m-auto' src='/Fotos/007.jpeg' />
-        <img className='w-full rounded' src='/Fotos/006.jpeg' />
+        <img className='w-full rounded ' src='/Fotos/003.jpeg' />
+        <img className='w-full rounded' src='/Fotos/004.jpeg' />
         <img className='w-full rounded' src='/Fotos/005.jpeg' />
-        <img className='w-full rounded' src='/Fotos/003.jpeg' />  
       </SlideshowLightbox> 
      </div>
     </main>
