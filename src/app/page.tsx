@@ -61,7 +61,6 @@ export default function Home() {
         <img className='w-full rounded' src='/Fotos/002.jpeg' />
         <img className='w-full rounded ' src='/Fotos/003.jpeg' />
         <img className='w-full rounded' src='/Fotos/004.jpeg' />
-        <img className='w-full rounded' src='/Fotos/005.jpeg' />
       </SlideshowLightbox> 
      </div>
     </main>
