@@ -48,7 +48,7 @@ export default function Home() {
           </div>
           
         </div>
-        <div className='flex mt-[-8px] md:block m-auto w-fit md:mt-[120px]'>
+        <div className='flex md:block m-auto w-fit md:mt-[120px]'>
           <span className='hidden md:block mt-5 text-lg md:text-xl font-medium m-auto text-slate-200'>Conheça Meu Trabalho</span>
           <div className='ml-4 md:ml-[100px]'>
               <ArrowDown />
